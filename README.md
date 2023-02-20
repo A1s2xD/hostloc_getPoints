@@ -7,7 +7,7 @@ github action大规模失效，mjj平均一人10鸡，以下可以部署到自�
 **第一步**下载下列代码
 https://github.com/Jox2018/hostloc_getPoints/blob/main/hostloc_auto_get_points.py
 
-**第二步**把175，176行代码改为
+**第二步**把175，176行代码改为自己的账户密码
 
 ```
 username = "账户"
@@ -54,7 +54,7 @@ pip3 install requests
 cd /root/hostloc/ && /usr/local/bin/python3 /root/hostloc/hostloc_auto_get_points.py
 ```
 
-
+cd /root/ && /usr/bin/python3 /root/hostloc_auto_get_points.py
 
 env
 HOSTLOC_USERNAME=username1,username2...
